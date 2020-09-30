@@ -42,38 +42,6 @@ public enum TokenType {
     private static Set<String> keywords = new HashSet<>();
 
     static {
-        keywords.add(OTHER.value);
-        keywords.add(STRING_LITERAL.value);
-        keywords.add(CHAR_LITERAL.value);
-        keywords.add(NUMBER.value);
-        keywords.add(IDENTIFIER.value);
-        keywords.add(LESS_EQ.value);
-        keywords.add(GREATER_EQ.value);
-        keywords.add(LESS.value);
-        keywords.add(GREATER.value);
-        keywords.add(NOT.value);
-        keywords.add(NOTEQUALS.value);
-        keywords.add(EQUALS.value);
-        keywords.add(BECOMES.value);
-        keywords.add(OR.value);
-        keywords.add(AND.value);
-        keywords.add(MOD.value);
-        keywords.add(DIV.value);
-        keywords.add(MUL.value);
-        keywords.add(MINUS.value);
-        keywords.add(PLUS.value);
-        keywords.add(ARROW.value);
-        keywords.add(AT.value);
-        keywords.add(DOUBLE_QUOTES.value);
-        keywords.add(SINGLE_QUOTE.value);
-        keywords.add(SEMICOLON.value);
-        keywords.add(COMMA.value);
-        keywords.add(RPAREN.value);
-        keywords.add(LPAREN.value);
-        keywords.add(RBRACKET.value);
-        keywords.add(LBRACKET.value);
-        keywords.add(RSQUARE.value);
-        keywords.add(LSQUARE.value);
         keywords.add(WHILE.value);
         keywords.add(VOID.value);
         keywords.add(BOOLEAN.value);
